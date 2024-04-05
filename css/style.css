@@ -20,6 +20,11 @@ body {
     /*border: 1px solid rgb(255, 217, 0);*/
 }
 
+.portfolio .flex {
+    width: 100%;
+    transform: scale(0.8);
+}
+
 .txt_topo span {
     color: rgb(0, 0, 0);
 }
@@ -266,18 +271,15 @@ section.sobre .flex{
     color: blue;
 }
 
-section.portfolio{
-    padding: 5px 4%;
+.portfolio{
+    width: 100vw;
     box-shadow: 0 0 40px 6px rgba(255, 255, 255, 0.096);
 }
 
 .interface_portfolio {
     padding: 5px 0px;
-}
-
-.interface_portfolio .flex{
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .txt_port{
@@ -321,7 +323,6 @@ section.portfolio{
 }
 
 .container_proj{
-    display: block;
     padding: 2%;
     border-right: 1px solid rgba(85, 85, 85, 0.336);
 }
@@ -439,6 +440,8 @@ footer .interface{
     }
 
     .interface_portfolio .flex{
+        width: 100vw;
+        text-align: center;
         flex-wrap: wrap;
         transform: scale(0.8);
     }
