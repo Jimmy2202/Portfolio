@@ -17,6 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     /*border: 1px solid rgb(255, 217, 0);*/
 }
 
@@ -323,11 +324,19 @@ section.sobre .flex{
 }
 
 .container_proj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 2%;
     border-right: 1px solid rgba(85, 85, 85, 0.336);
 }
 
 .container_proj_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 2%;
 }
 
@@ -341,7 +350,10 @@ section.sobre .flex{
 }
 
 .text_project{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
